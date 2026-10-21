@@ -68,3 +68,21 @@ h1, h2 { margin-bottom: 1.5rem; }
 .btn:hover { opacity: 0.85; }
 .btn:disabled { opacity: 0.5; cursor: wait; }
 .btn--center { display: block; margin: 2rem auto 0; }
+
+/* Search input and message*/
+
+[hidden] { display: none !important; }
+
+.search-input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+.search-input:focus { outline: none; border-color: var(--accent); }
+
+.message { color: var(--muted); margin-bottom: 1.5rem; }
