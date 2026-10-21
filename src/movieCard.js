@@ -1,4 +1,5 @@
-const PLACEHOLDER = 'https://placehold.co/300x445?text=Pas+d%27affiche';
+
+export const PLACEHOLDER = 'https://placehold.co/300x445?text=Pas+d%27affiche';
 
 // Crée la carte HTML d'un film (réutilisée sur l'accueil et la recherche)
 export function createMovieCard(movie) {
