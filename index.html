@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinéma - Accueil</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">🎬 Cinéma du Village</a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="search.html">Rechercher</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Films tendances</h1>
+      <div id="trending" class="movie-grid"></div>
+    </section>
+
+    <section>
+      <h2>Films de 2024</h2>
+      <div id="movies-2024" class="movie-grid"></div>
+      <button id="load-more" class="btn btn--center">Charger plus de films de 2024</button>
+    </section>
+  </main>
+
+  <script type="module" src="/src/index.js"></script>
+</body>
+</html>
